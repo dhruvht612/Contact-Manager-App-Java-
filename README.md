@@ -67,12 +67,14 @@ This project demonstrates real-world use of inheritance, encapsulation, and data
    git clone https://github.com/yourusername/contact-manager-app.git
    cd contact-manager-app
 
+---
 
 📁 contact-manager-app
 ├── Contact.java
 ├── ContactManager.java
 └── ContactManagerApp_FEU_2024.java
 
+---
 
 --- Contact Manager ---
 1. Add Contact
@@ -85,6 +87,7 @@ This project demonstrates real-world use of inheritance, encapsulation, and data
 8. Sort by Address Count
 9. Exit
 
+---
 
 🧩 Future Enhancements
 📁 File I/O (Save/load contacts from a file)
