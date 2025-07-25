@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ContactManagerApp_main {
+public class ContactManagerApp_FEU_2024 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ContactManager manager = new ContactManager();
@@ -38,9 +38,11 @@ public class ContactManagerApp_main {
                     Contact newContact = new Contact(name, phone, addresses);
                     manager.addContact(newContact);
                     break;
+
                 case 2:
                     manager.displayContacts();
                     break;
+
                 case 3:
                     System.out.print("Enter name to search: ");
                     String searchName = scanner.nextLine();
@@ -51,6 +53,7 @@ public class ContactManagerApp_main {
                         System.out.println("Contact not found.");
                     }
                     break;
+
                 case 4:
                     System.out.print("Enter partial name: ");
                     String partial = scanner.nextLine();
@@ -63,6 +66,7 @@ public class ContactManagerApp_main {
                         }
                     }
                     break;
+
                 case 5:
                     System.out.print("Name of contact to update: ");
                     String updateName = scanner.nextLine();
@@ -78,22 +82,31 @@ public class ContactManagerApp_main {
                     }
                     manager.updateContact(updateName, newPhone, newAddresses);
                     break;
+
                 case 6:
-                    manager.mergeSortByName(manager.getContacts(), 0, manager.getContacts().length - 1);
-                    System.out.println("Sorted by name.");
+                    Contact[] sorted = manager.getContacts();
+                    manager.mergeSortByName(sorted, 0, sorted.length - 1);
+                    System.out.println("Sorted by name:");
+                    for (Contact c : sorted) {
+                        c.displayContact();
+                    }
                     break;
+
                 case 7:
                     manager.sortByPhoneNumber();
                     System.out.println("Sorted by phone number.");
                     break;
+
                 case 8:
                     manager.sortByAddressCount();
                     System.out.println("Sorted by address count.");
                     break;
+
                 case 9:
                     System.out.println("Goodbye!");
                     scanner.close();
                     return;
+
                 default:
                     System.out.println("Invalid choice.");
             }

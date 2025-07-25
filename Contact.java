@@ -1,7 +1,7 @@
 public class Contact {
-    private String name;
-    private String phoneNumber;
-    private String[] addresses;
+    protected String name;
+    protected String phoneNumber;
+    protected String[] addresses;
 
     public Contact(String name, String phoneNumber, String[] addresses) {
         this.name = name;

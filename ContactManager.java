@@ -17,6 +17,7 @@ public class ContactManager {
             System.out.println("No contacts to display.");
             return;
         }
+
         for (int i = 0; i < numContacts; i++) {
             contacts[i].displayContact();
         }
@@ -36,6 +37,7 @@ public class ContactManager {
             else
                 right = mid - 1;
         }
+
         return null;
     }
 
@@ -104,6 +106,7 @@ public class ContactManager {
             arr[k++] = R[j++];
     }
 
+    // ✅ Return a trimmed copy of contact list
     public Contact[] getContacts() {
         return Arrays.copyOf(contacts, numContacts);
     }
