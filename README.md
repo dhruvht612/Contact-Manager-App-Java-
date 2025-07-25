@@ -9,10 +9,10 @@
 The **Contact Manager App** is a command-line Java application designed for learning and showcasing skills in:
 
 - Object-Oriented Programming (OOP)
-- Sorting and searching algorithms
-- Modular code architecture
+- Sorting and Searching Algorithms
+- Modular Code Architecture
 
-This project demonstrates real-world use of inheritance, encapsulation, and data manipulation — perfect for portfolios or coursework.
+This project demonstrates real-world use of inheritance, encapsulation, and data manipulation — perfect for technical portfolios, coursework, or interview prep.
 
 ---
 
@@ -20,63 +20,81 @@ This project demonstrates real-world use of inheritance, encapsulation, and data
 
 - ✅ Add new contacts (with multiple addresses)
 - 🔍 Search by full name using **Binary Search**
-- 🔎 Partial name matching (Linear Search)
-- 🔁 Sort contacts:
-  - By Name (using **Merge Sort**)
-  - By Phone Number
-  - By Number of Addresses
-- 🧠 Efficient algorithm integration
-- 🧱 Object-Oriented design using **inheritance**
-- 📋 View and update contact details
-- ☑️ Simple, menu-driven CLI interface
+- 🔎 Match partial names using **Linear Search**
+- 🔁 Sort contacts by:
+  - Name (**Merge Sort**)
+  - Phone Number
+  - Number of Addresses
+- ✏️ Update existing contact details
+- 📋 View all contacts
+- 📌 Modular design using clean **OOP principles**
+- 🧱 Ready for extension (e.g., file I/O, GUI)
 
 ---
 
 ## 🧠 Algorithms & Concepts Used
 
-| Concept            | Usage                                 |
-|--------------------|----------------------------------------|
-| **Merge Sort**      | Sort contacts alphabetically           |
-| **Binary Search**   | Efficient exact name lookup            |
-| **Comparator-based Sort** | Sorting by phone or address count |
-| **Linear Search**   | Partial matching of contact names      |
-| **Inheritance**     | Extensible contact types (future-ready)|
-| **Encapsulation**   | Clean separation of data and behavior  |
+| Concept                | Usage                                  |
+|------------------------|----------------------------------------|
+| **Merge Sort**         | Sort contacts alphabetically by name   |
+| **Binary Search**      | Fast exact-name contact lookup         |
+| **Comparator Sorting** | Sort by phone number / address count   |
+| **Linear Search**      | Find contacts with partial name match  |
+| **Inheritance**        | Contact structure extensibility        |
+| **Encapsulation**      | Controlled access to contact data      |
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Technologies Used
 
-| Tech         | Purpose                      |
-|--------------|------------------------------|
-| **Java**     | Core language                |
-| **OOP**      | Object modeling, logic reuse |
-| **CLI**      | Lightweight user interface   |
+| Technology  | Purpose                             |
+|-------------|-------------------------------------|
+| **Java**    | Core programming language           |
+| **CLI**     | Lightweight terminal UI             |
+| **OOP**     | Encapsulation, modularity, reuse    |
 
 ---
 
 ## 🚀 Getting Started
 
-### Requirements
-- Java 8 or later
-- Terminal or Java-compatible IDE (IntelliJ, Eclipse, VS Code)
+### ✅ Prerequisites
+- Java JDK 8 or higher
+- Terminal or IDE (e.g., IntelliJ, Eclipse, VS Code)
 
-### Running the App
-1. **Clone the repo**:
+### ▶️ Run Instructions
+
+1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/contact-manager-app.git
+   git clone https://github.com/your-username/contact-manager-app.git
    cd contact-manager-app
+   ```
+
+2. **Compile the Files**
+   ```bash
+   javac Contact.java ContactManager.java ContactManagerApp_FEU_2024.java
+   ```
+
+3. **Run the Application**
+   ```bash
+   java ContactManagerApp_FEU_2024
+   ```
 
 ---
 
+## 📂 Project Structure
+
+```
 📁 contact-manager-app
-├── Contact.java
-├── ContactManager.java
-└── ContactManagerApp_FEU_2024.java
-
+├── Contact.java                   # Contact class (data model)
+├── ContactManager.java            # Core logic and algorithms
+└── ContactManagerApp_FEU_2024.java # Main application (CLI)
+```
 
 ---
 
+## 🖼️ Sample CLI Output
+
+```text
 --- Contact Manager ---
 1. Add Contact
 2. Display Contacts
@@ -87,23 +105,32 @@ This project demonstrates real-world use of inheritance, encapsulation, and data
 7. Sort by Phone Number
 8. Sort by Address Count
 9. Exit
+```
 
 ---
 
-🧩 Future Enhancements
-📁 File I/O (Save/load contacts from a file)
+## 💼 Resume Highlight
 
-🌐 Export to JSON or CSV
-
-💻 GUI using Java Swing or JavaFX
-
-🧠 Duplicate prevention logic
-
-🔐 Password-protected access
+> **Java CLI Contact Manager** – Built a modular Java application to manage contact data using object-oriented programming and custom algorithms (merge sort and binary search). Demonstrated understanding of class design, inheritance, encapsulation, and data structures.
 
 ---
 
-Let me know if you want:
-- A ZIP folder with the `.java` files + this `README.md`
-- A GitHub Pages website for this project
-- A badge (Java, CLI, MIT License) header section for flair
+## 🔮 Future Enhancements
+
+- 💾 File I/O for saving/loading contacts
+- 🌐 Export contacts as JSON or CSV
+- 🖥️ GUI version using Swing or JavaFX
+- 🔁 Duplicate contact prevention
+- 🔐 User authentication layer
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgments
+
+This project was developed as part of a learning journey in Java, OOP, and algorithmic programming.
