@@ -74,6 +74,7 @@ This project demonstrates real-world use of inheritance, encapsulation, and data
 ├── ContactManager.java
 └── ContactManagerApp_FEU_2024.java
 
+
 ---
 
 --- Contact Manager ---
