@@ -109,12 +109,6 @@ This project demonstrates real-world use of inheritance, encapsulation, and data
 
 ---
 
-## 💼 Resume Highlight
-
-> **Java CLI Contact Manager** – Built a modular Java application to manage contact data using object-oriented programming and custom algorithms (merge sort and binary search). Demonstrated understanding of class design, inheritance, encapsulation, and data structures.
-
----
-
 ## 🔮 Future Enhancements
 
 - 💾 File I/O for saving/loading contacts
