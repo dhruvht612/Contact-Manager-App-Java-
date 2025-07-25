@@ -2,7 +2,6 @@ import java.util.*;
 
 public class ContactManagerApp_FEU_2024 {
     // Dhruv Thakar
-    // June 17, 2024
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
